@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Site</title>
+</head>
+<body>
+    <h1>Olá! Nesse site, vou por em prática algumas coisas que já aprendi aqui.</h1>
+    <ol type="1"">
+        <li><b>Listas</b></li>
+        <p>Aqui, vi que é possível fazer vários tipos de listas, que podem ser listas ordenadas e não odernadas.</p>
+        <ol>
+            <li>Podemos fazer uma lista dentro de outra também.</li>
+            <ol>
+                <li>E outra dentro de outra...</li>
+            </ol>
+        </ol>
+        <li><b>Cor da página</b></li>
+        <p>É possível dar cor às nossa páginas, usando o comando: &lt;style&gt; body &#125;background-color: nome da cor; &lt;style&gt; <br> <strong>Esse comando deve ser adicionado no head, acima ou abaixo do title</strong>. <mark>Uma coisa que tenho que ver é que quando adicionei ele, os códigos do HTML pararam de ficar coloridos.</mark></p>
+        <li>também é possível adicionar links ao meu site! Tem algumas formas de fazer:</li>
+        <ul>
+            <li>Podemos acrescentar links externos, que direcionam a gente para outros sites que não são o nosso. <br> Pra adicionar esse tipo de link, podemos escrever uma frase, por exemplo "Clique <a href="https://www.taskcursos.com">aqui</a> para ser direcionado ao site do Task Cursos. <br> Pra isso, iremos selecionar o texto que vai virar link, apertar command + shift + P para abrir a aba de "formatação", em seguida vamos colocar o comando A, e clicar enter. Quando fizer isso, automaticamente vai ser digitado um novo texto, onde iremos inserir dentro da aspas o link. <br> Porém existem algumas ressalvas, por exemplo:
+            <ol>
+                <li>Fazendo apenas isso, com o link "cru", quando o cliente clicar nele, irá abrir na mesma página, o que não é recomendado para links externos. <br>Pra corrigirmos isso, vamos fazer o seguinte:
+                <ol>
+                    <li>Dentro da abinha do comando que abriu, depois das aspas, você irá digitar TARGET, que significa o alvo, e digitar _blank. Isso vai dizer pra ele que você quer que abra uma página em branco. Em seguida, digite REL= external.</li>
+                </ol></li>
+                <p>Uma dica importante para o SEO, é indicar que aquele link é NOFOLLOW, pro Google entender que não precisa analisar aquele link.</p>
+            </ol></li>
+
+        </ul>
+    </ol>
+    <p>Pra você inserir um link interno, que direciona pra uma página no seu site, é só fazer o primeiro procedimento. <br>Uma boa prática nesse caso é indicar se aquele link é anterior ou prévio. <br>Pra fazer isso, você vai digitar rel= PREV ou NEXT.</p>
+</body>
+</html>
